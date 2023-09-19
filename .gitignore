@@ -1,5 +1,6 @@
 output/
 .vscode
+.ipynb
 .ipynb_checkpoints
 
 # Prerequisites
