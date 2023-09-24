@@ -16,6 +16,10 @@ public:
 
     ~Quote(){};
 
+    std::string getSymbol(){
+        return this->symbol;
+    }
+
     size_t nbSpots()
     {
         return spots.size();

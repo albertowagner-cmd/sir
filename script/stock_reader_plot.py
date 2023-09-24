@@ -15,7 +15,7 @@ def getData(stock,startDate,endDate):
     return stockData
 
 def saveDataToCSV(data,fileName):
-    data.to_csv('../output/'+fileName+'.csv')
+    data.to_csv('./output/'+fileName+'.csv')
 
 def plotData(stockData, ticker):
     stockData = stockData.reset_index()

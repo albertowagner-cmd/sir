@@ -2,6 +2,7 @@ output/
 .vscode
 .ipynb_checkpoints
 *.ipynb
+*.sh
 
 # Prerequisites
 *.d
